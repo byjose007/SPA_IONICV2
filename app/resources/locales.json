@@ -1,0 +1,59 @@
+{
+    "locales": {
+        "Fruques": 
+        {
+            "nombre": "Fruques",
+            "dirección": "C/. 10 de Agosto y Olmedo",
+            "ciudad": "Loja",
+            "logo": "http://lorempixel.com/100/100/food",
+            "tipo" : "Ensaladas y Frutas",
+            "estado": true,
+            "menus": 
+                        [
+                            {"nombre":"Ensalada Mixta", "precio":"3.00", "cantidad": 0},
+                            {"nombre":"Ensalada Natural", "precio":"2.50","cantidad": 0},
+                            {"nombre":"Jugo de frutas", "precio":"1.50","cantidad": 0}
+                        ],
+                          
+            "metodosPago": ["Efectivo", "Tarjeta de Crédito"]
+          },
+
+        "El Chinito":
+         {
+            "nombre": "El Chinito",
+            "dirección": "C/. 10 de Agosto y Olmedo",
+            "logo": "http://lorempixel.com/100/100/food",
+            "tipo" : "Pescaderia",
+            "estado": true,
+            "menus": 
+                        [
+                            {"nombre":"Bandera", "precio":"3.00", "cantidad": 0 },
+                            {"nombre":"Ceviche de camarón", "precio":"4.50","cantidad": 0},
+                            {"nombre":"Corviche", "precio":"3.50","cantidad": 0}
+                        ],
+                          
+            "metodosPago": ["Efectivo"]
+        },
+
+        "Lojanos Pizzeria":
+        {
+            "nombre": "Lojanos Pizzeria",
+            "dirección": "Ave Orillas del Zamora",
+            "logo": "http://lorempixel.com/100/100/food",
+            "tipo" : "Pizza",
+            "estado": true,
+            "menus": 
+                        [
+                            {"nombre":"Menú Mediana Especialidad", "datalle":"Pizza individual más bebida de 50 cl", "tipo_menu":"individual", "tipo_pizza":["Jamón y Queso","Hawaiana","Napolitana"],"bebida":["Coca-Cola","Fanta", "Nestea"], "precio":"6.00", "cantidad": 0 },
+                            {"nombre":"Menú Mediana Especialidad", "datalle":"Pizza mediana más bebida de 1 litro", "tipo_menu":"mediana", "tipo_pizza":["Jamón y Queso","Hawaiana","Napolitana"],"bebida":["Coca-Cola","Fanta", "Nestea"], "precio":"12.00", "cantidad": 0 },
+                            {"nombre":"Menú Mediana Especialidad", "datalle":"Pizza familiar más bebida de 2 litros", "tipo_menu":"familiar", "tipo_pizza":["Jamón y Queso","Hawaiana","Napolitana"],"bebida":["Coca-Cola","Fanta", "Nestea"], "precio":"22.00", "cantidad": 0 }
+                        ],
+                          
+            "metodosPago": ["Efectivo", "Tarjeta de Crédito"]
+        }
+    }
+
+}
+
+
+

@@ -1,0 +1,57 @@
+{
+    "locales": [
+        {
+            "nombre": "Fruques",
+            "dirección": "C/. 10 de Agosto y Olmedo",
+            "ciudad": "Loja",
+            "logo": "http://lorempixel.com/100/100/food/5",
+            "tipo" : "Ensaladas y Frutas",
+            "estado": false,
+            "menus":
+                        [
+                            {"nombre":"Ensalada mixta","datalle":"Lechuga, tomate, cebolla blanca, nueceses picadas", "precio":"3.00", "cantidad": 0},
+                            {"nombre":"Ensalada de frutas","datalle":"durazno, manzana, pera, banana, uva, naranja", "precio":"2.50","cantidad": 0},
+                            {"nombre":"Jugo de frutas", "datalle":"fresa, platano, mango","precio":"1.50","cantidad": 0}
+                        ],
+
+            "metodosPago": ["Efectivo", "Tarjeta de Crédito"]
+          },
+
+
+         {
+            "nombre": "El Chinito",
+            "dirección": "C/. 10 de Agosto y Olmedo",
+            "ciudad": "Loja",
+            "logo": "http://lorempixel.com/100/100/food/4",
+            "tipo" : "Pescaderia",
+            "estado": true,
+            "menus":
+                        [
+                            {"nombre":"Bandera","datalle":"Bandera", "precio":"3.00", "cantidad": 0 },
+                            {"nombre":"Ceviche de camarón","datalle":"ceviche", "precio":"4.50","cantidad": 0},
+                            {"nombre":"Corviche","datalle":"Corviche", "precio":"3.50","cantidad": 0}
+                        ],
+
+            "metodosPago": ["Efectivo"]
+        },
+
+
+        {
+            "nombre": "Lojanos Pizzeria",
+            "dirección": "Ave Orillas del Zamora",
+            "ciudad": "Loja",
+            "logo": "http://lorempixel.com/100/100/food/3",
+            "tipo" : "Pizza",
+            "estado": true,
+            "menus":
+                        [
+                            {"nombre":"Menú Individual", "datalle":"Pizza individual más bebida de 50 cl", "tipo_menu":"individual", "tipo_pizza":["Jamón y Queso","Hawaiana","Napolitana"],"bebida":["Coca-Cola","Fanta", "Nestea"], "precio":"6.00", "cantidad": 0 },
+                            {"nombre":"Menú Mediana", "datalle":"Pizza mediana más bebida de 1 litro", "tipo_menu":"mediana", "tipo_pizza":["Jamón y Queso","Hawaiana","Napolitana"],"bebida":["Coca-Cola","Fanta", "Nestea"], "precio":"12.00", "cantidad": 0 },
+                            {"nombre":"Menú Familiar", "datalle":"Pizza familiar más bebida de 2 litros", "tipo_menu":"familiar", "tipo_pizza":["Jamón y Queso","Hawaiana","Napolitana"],"bebida":["Coca-Cola","Fanta", "Nestea"], "precio":"22.00", "cantidad": 0 }
+                        ],
+
+            "metodosPago": ["Efectivo", "Tarjeta de Crédito"]
+        }
+    ]
+
+}

@@ -1,0 +1,18 @@
+<ion-navbar *navbar red>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Menú</ion-title>
+</ion-navbar>
+
+<ion-content padding class="menu">
+<ion-card-content class="outer-content">
+    <ion-list>
+      <ion-item *ngFor="#menu of local.menus">
+        <h3>{{menu.nombre}}</h3>
+        <p>{{menu.datalle}}<p>
+        <h3>$ {{menu.precio}}</h3>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-content>

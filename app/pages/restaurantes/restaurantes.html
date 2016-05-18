@@ -1,0 +1,50 @@
+
+<ion-navbar *navbar red>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Loja</ion-title>
+</ion-navbar>
+
+<!--<div class="abiertos"><strong>20 locales abiertos</strong></div>-->
+  <ion-item-divider full secondary>Abiertos</ion-item-divider>
+  <!-->Buscador
+  <ion-searchbar primary [(ngModel)]="queryText" (input)="updateSchedule()" placeholder="Buscar"> </ion-searchbar>-->
+
+
+<ion-content class="getting-started">
+       <ion-list>
+            <button *ngFor="#local of locales" ion-item (click)="gotoMenu(local)">
+                <ion-thumbnail item-left>
+                    <img src="{{local.logo}}">
+                </ion-thumbnail>
+                <h2>{{local.nombre}}</h2>
+                <p>{{local.tipo}}</p>
+                <div class="enLinea">
+                    <p info ><ion-icon name="heart"></ion-icon>25</p>
+                    <p info ><ion-icon name="md-chatboxes"></ion-icon>12</p>
+                </div>
+              <!--  <button ion-item *ngFor="#menu of local.menus">
+                    <h3>{{menu.nombre}}</h3>
+                    <h3>{{menu.precio}}</h3>
+                </button>-->
+
+            
+
+
+            </button>
+
+
+        </ion-list>
+
+        <p>
+        <button primary menuToggle>Ir al Menu</button>
+
+
+
+</ion-content>
+
+
+
+
+<!--<div class="cerrados"><strong>10 locales cerrados</strong></div>-->

@@ -1,0 +1,29 @@
+.getting-started {
+
+  p {
+    
+    line-height: 15px;
+    font-size: 12px;
+  } 
+}
+ .abiertos{
+  	background-color: #32db64;
+    color: #ffffed;
+    text-align: center;
+    padding: 2%;    
+  }
+  
+  .cerrados{
+  	background-color: #f53d3d;
+    color: #ffffed;
+    text-align: center;
+    padding: 2%;    
+  } 
+
+  
+  .enLinea p{
+    display: inline;
+    padding-right: 10px;      
+    font-size: 12px; 
+    color: #666;
+  }
